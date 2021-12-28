@@ -1,0 +1,124 @@
+ <nav id="menu-h">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Quem Somos</a></li>
+        <li><a href="#">Galeria</a></li>
+        
+      </ul>
+</nav>
+
+
+
+
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+
+
+
+Css novo
+
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: #1a1a1a;
+    font-family: Roboto;
+    box-shadow: 0px 0px 100px 5px;
+  }
+  
+  .menu ul {
+    text-align: right;
+    list-style: none;
+    position: relative;
+    padding: 0;
+  }
+  
+  .menu ul li ul {
+    width: 100%;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 0px 10px;
+    line-height: 25px;
+    padding: 0;
+    position: relative;
+  }
+  
+  .menu ul li a {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .menu a {
+    padding: 12.5px;
+    display: block;
+    text-decoration: none;
+    color: #666666;
+  }
+  
+  .menu ul ul {
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: all 500ms;
+  }
+  
+  .menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #262626;
+  }
+  
+  .menu ul li:hover ul {
+    opacity: 1;
+  }
+  
+  .menu ul ul a:hover {
+    transition: all 0.4s ease;
+    background-color: #262626;
+    color: white;
+  }
+  
+  .menu a:hover {
+    transition: all 0.4s ease;
+    color: white;
+  }
+  
+  .menu ul ul li {
+    background-color: #1a1a1a;
+  }
+  
+  .menu ul ul a {
+    font-size: 17px;
+  }
+  
+  .menu ul ul li a:hover ul ul ul {
+    visibility: visible;
+  }

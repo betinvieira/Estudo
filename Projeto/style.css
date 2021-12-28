@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Slab & display = swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans serif;
+}
+
+h1{
+    text-align: center;
+    padding: 3%;
+}
+
+p{
+    
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    padding: 0%;
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    background-color:rgb(37, 37, 39);
+    text-align: center;
+
+}
+
+#menu-h li{
+    display:inline ;
+}
+
+#menu-h li a{
+    color:#fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    
+}
+
+#menu-h li a:hover{
+    background-color:rgb(24, 139, 233);
+    
+    
+}
